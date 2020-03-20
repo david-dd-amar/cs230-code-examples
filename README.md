@@ -26,3 +26,5 @@ Once these are installed properly, you will need to create an environment so tha
 conda create -n cs230_tf_vision --file requirements.txt
 conda activate cs230_tf_vision
 ```
+
+Some libraries may fail to load and require an update (after creating the environment). 
