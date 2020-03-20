@@ -1,9 +1,9 @@
-# CS230 Code Examples
+# CS230 Code
 
 [Tutorials](https://cs230-stanford.github.io)
 
 
-We are happy to introduce some code examples that you can use for your CS230 projects. The code contains examples for TensorFlow and PyTorch, in vision and NLP. The structure of the repository is the following:
+This is a vopy of Stanford' CS 230 course. The structure of the repository is the following:
 
 ```
 README.md
@@ -19,4 +19,4 @@ tensorflow/
         README.md
 ```
 
-You'll find a README.md in each sub-directory.
+To start the projects locally install [anaconda](https://www.anaconda.com/distribution/). This will add python 3 if not installed) and conda to the PATH (in mac /Users/username/anaconda3 or /Users/username/opt/anaconda3). Then add TensorFlow using the commands [here](https://www.anaconda.com/tensorflow-in-anaconda/). Finally use `conda install pytorch torchvision -c pytorch` for installing pytorch.
